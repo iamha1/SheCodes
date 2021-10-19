@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week One - Workshop</title>
+    <style>
+      p {
+        text-align: center;
+      }
+
+      h2 {
+        color: rgb(47, 64, 196);
+        text-align: center;
+      }
+      .current-temp {
+        font-size: 25px;
+        font-family: sans-serif;
+      }
+      .tomorrow {
+        text-align: center;
+        font-family: sans-serif;
+      }
+      .tomorrow:hover {
+        background: cornsilk;
+        margin: 5px 5px;
+        padding: 10px 15px;
+        margin: 10px 20px 10px 20px;
+        border-radius: 7px;
+      }
+      .temperature-tomorrow {
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      .saturday {
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .saturday:hover {
+        background: cornsilk;
+        margin: 5px 5px;
+        padding: 10px 15px;
+        margin: 10px 20px 10px 20px;
+        border-radius: 7px;
+      }
+      .sunday {
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .sunday:hover {
+        background: cornsilk;
+        margin: 5px 5px;
+        padding: 10px 15px;
+        margin: 10px 20px 10px 20px;
+        border-radius: 7px;
+      }
+      h4 {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 25px;
+      }
+      .button {
+        display: block;
+        margin: 0 auto 20px auto;
+        padding: 20px 30px;
+        font-size: 15px;
+        color: rgb(47, 64, 196);
+        background: transparent;
+        border-radius: 30px;
+        border: 1px solid rgb(47, 64, 196);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+      .button:hover {
+        background: rgb(47, 64, 196);
+        color: white;
+      }
+      .footer {
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <p class="emoji-cloud-rain">⛅</p>
+      <h2>Currently 21° in Tokyo</h2>
+      <p class="current-temp">
+        13° / <span><strong> 23°</strong></span>
+      </p>
+    </div>
+
+    <div class="tomorrow">
+      <h3>🌧 Tomorrow</h3>
+      <p class="temperature-tomorrow">
+        10° /
+        <span> <strong>22°</strong></span>
+      </p>
+    </div>
+
+    <div class="saturday">
+      <h3>⛅ Saturday</h3>
+      <p>
+        15° /
+        <span> <strong>17°</strong></span>
+      </p>
+    </div>
+
+    <div class="sunday">
+      <h3>🌞 Sunday</h3>
+      <p>
+        25° /
+        <span> <strong>28°</strong></span>
+      </p>
+    </div>
+    <button class="button">Change city</button>
+    <div class="footer">Coded by Ha Nguyen</div>
+  </body>
+</html>

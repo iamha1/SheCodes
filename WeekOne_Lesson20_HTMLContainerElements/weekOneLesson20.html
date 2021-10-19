@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Week One - Lesson 18 - CSS Pseudo Selector</title>
+    <style>
+      body {
+        background-color: #f6f2fe;
+      }
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+        color: #885df1;
+        font-size: 35px;
+      }
+      h2 {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 100;
+      }
+      .button {
+        display: block;
+        margin: 0 auto 20px auto;
+        padding: 20px 30px;
+        font-size: 18px;
+        color: #885df1;
+        background: transparent;
+        border: 1px solid #885df1;
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: #885df1;
+        color: white;
+        cursor: pointer;
+      }
+      li {
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+      }
+      ul {
+        display: table;
+        margin: 0 auto;
+      }
+      .coders {
+        color: blue;
+        padding-right: 20px;
+      }
+      .coders:hover {
+        cursor: pointer;
+      }
+      .courses {
+        color: red;
+        padding-right: 20px;
+      }
+      .courses:hover {
+        cursor: pointer;
+      }
+      .stories:hover {
+        cursor: pointer;
+      }
+      .stories {
+        color: green;
+        padding-right: 20px;
+      }
+      a:link {
+        text-decoration: none;
+      }
+
+      p {
+        text-align: center;
+      }
+      img {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+      }
+     div{
+        text-align: center;
+        margin-top: 30px;
+      }
+      .email {
+        color: #885df1;
+      }
+      .address1 {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SheCodes</h1>
+    <h2>Coding Workshop</h2>
+    <button class="button">Apply Now</button>
+    <ul>
+      <li>
+        <a href="https://www.shecodes.io/students" class="coders">Coders</a>
+      </li>
+      <li>
+        <a href="https://www.shecodes.io/workshops" class="courses">Courses</a>
+      </li>
+      <li>
+        <a href="https://www.shecodes.io/stories" class="stories">Stories</a>
+      </li>
+    </ul>
+    <hr />
+    <p>
+      <strong> More Info </strong>
+    </p>
+    <img
+      src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMjEzNjg5MC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY2MjcyMzI1N30.HhU8EdDSmzYSDCBNprGlUv4EmAfn0L-_VnkU6e9H_j0/img.jpg?width=1200&coordinates=0%2C437%2C0%2C396&height=600"
+    />
+    <div class="email">
+      Email: <span class="address1"> hello@shecodes.io </span>
+      <span class="instagram">Instagram:<span class="address1">@shecodes.io</span>
+    </div>
+  </body>
+</html>

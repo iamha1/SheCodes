@@ -9,14 +9,13 @@
       p {
         text-align: center;
       }
-      .emoji-cloud-rain {
-        font-size: 40px;
-        margin-bottom: 10px;
-      }
-      h2 {
+
+      h1 {
         color: #1d64d8;
         text-align: center;
         margin: 5px;
+        line-height: 48px;
+        font-family: Arial, Helvetica, sans-serif;
       }
       .current-temp {
         font-size: 25px;
@@ -31,7 +30,6 @@
         margin: 0 auto;
         display: block;
         background: cornsilk;
-        padding: 10px 15px;
         border-radius: 7px;
         max-width: 400px;
         justify-content: center;
@@ -41,16 +39,18 @@
       .temperature-tomorrow {
         font-family: "Courier New", Courier, monospace;
       }
-
+      p {
+        font-family: monospace;
+      }
       .saturday {
         text-align: center;
-        font-family: "Courier New", Courier, monospace;
+        font-family: Arial, Helvetica, sans-serif;
       }
       .saturday:hover {
         margin: 0 auto;
         display: block;
         background: cornsilk;
-        padding: 10px 15px;
+        padding: 0;
         border-radius: 7px;
         max-width: 400px;
         justify-content: center;
@@ -63,12 +63,13 @@
       }
       .sunday:hover {
         background: cornsilk;
-        padding: 10px 15px;
+        padding: 0;
         border-radius: 7px;
         max-width: 400px;
         transition: all 200ms ease-in-out;
         margin: 0 auto;
         display: block;
+        border: 20px;
       }
       h4 {
         text-align: center;
@@ -99,13 +100,14 @@
   </head>
 
   <body>
-    <div>
-      <p class="emoji-cloud-rain">⛅</p>
-      <h2>Currently 21° in Tokyo</h2>
-      <p class="current-temp">
-        13° / <span><strong> 23°</strong></span>
-      </p>
-    </div>
+    <h1>
+      ⛅
+      <br />
+      Currently 21° in Tokyo
+    </h1>
+    <p class="current-temp">
+      13° / <span><strong> 23°</strong></span>
+    </p>
 
     <div class="tomorrow">
       <h3>🌧 Tomorrow</h3>

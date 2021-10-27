@@ -4,17 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Week 2 - Lesson 6 - If Else Statements</title>
+    <title>Week 2 - Lesson 7 - Logical Operator</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
+    <h1>SheCodes</h1>
     <script>
-      let language = prompt("Which language do you speak?");
-      if (language === "French") {
-        alert("Bonjour!");
-      }
-      else{
-          alert("✋✋✋");
-      }
+    //   let language = prompt("Which language do you speak?");
+    //   let continent = prompt("Which continent are you from?");
+
+    //   if (language === "French" && continent === "Europe") {
+    //     alert("Bonjour 🇫🇷 ");
+    //   }
+
+    let age = prompt("How old are you?");
+    if (age < 16 || age > 120){
+        alert("You cannot drive a car")
+    }else{
+        alert("You can drive a car.")
+    }
     </script>
   </body>
 </html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+        line-height: 1.5;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+      } 
+    </style>
+  </head>
+  <body>
+    <h1>SheCodes</h1>
+    <ul>
+      <li>SheCodes Workshops</li>
+      <li>SheCodes+</li>
+      <li>SheCodes Express</li>
+      <li>SheCodes Story</li>
+    </ul>
+    <button>Contact me</button>
+    <script>
+      function contactUs() {
+        let name = prompt("What is your name?");
+        let email = prompt("What's your email?");
+        let h1 = document.querySelector("h1");
+
+        h1.innerHTML = "Thank you " + name + ", we will be in touch!";
+      }
+      let contactButton = document.querySelector("button");
+      contactButton.addEventListener("click", contactUs);
+    </script>
+  </body>
+</html>

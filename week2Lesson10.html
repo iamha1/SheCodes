@@ -56,24 +56,25 @@
 
   <body>
     <section>
-      <h1>
-        👩‍💻 She Codes is a Coding Workshop for Women
-      </h1>
-      <h2>
-        Access a new career in Technology
-      </h2>
+      <h1>👩‍💻 She Codes is a Coding Workshop for Women</h1>
+      <h2>Access a new career in Technology</h2>
       <p>
         She Codes teaches coding, design and management skills to women
         <br />
-        <strong>
-          Limited amount of spots!
-        </strong>
+        <strong> Limited amount of spots! </strong>
       </p>
       <br />
-      <button>
-        Apply Now
-      </button>
+      <button>Apply Now</button>
     </section>
-    <script></script>
+    <script>
+      let name = prompt("What is your name?");
+      let age = prompt("What is your age?");
+
+      if (age >= 18) {
+        alert("Hi " + name + "! Welcome to SheCodes!");
+      } else {
+        alert("Sorry " + name + "! You cannot apply to SheCodes!");
+      }
+    </script>
   </body>
 </html>
